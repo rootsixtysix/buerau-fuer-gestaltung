@@ -1,0 +1,47 @@
+:root{
+  --background: hsl(62, 100%, 80%);
+  --text: hsl(135, 100%, 26%);
+}
+
+
+body{
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'Courier';
+}
+h1, h2, h3, h4, h4, h6{
+  font-weight: normal;
+}
+#title{
+  font-size: 2.6em;
+  text-align: right;
+}
+#heading{
+  font-size: 2.3em;
+  text-align: left;
+  margin: 0em;
+}
+nav{
+  border-right: 3px solid var(--text);
+}
+.menuitem{
+  font-size: 1.3em;
+  padding: 0.15em 0em;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.menuitem:hover{
+  color: red;
+}
+.menuitem:active{
+  color: purple;
+}
+p{
+  font-size: 1.3em;
+}
+header{
+  background-color: var(--background);
+}
+main{
+  text-align: justify;
+}
